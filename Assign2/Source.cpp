@@ -48,6 +48,8 @@ void readFromFile(std::string filename, vector<STUDENT_DATA>& myvector)
 
 int main()
 {
+	cout << "Application is running pre-release source code" << endl;
+	
 	std::vector<STUDENT_DATA> myvector;
 	readFromFile("StudentData.txt", myvector);
 
