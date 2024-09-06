@@ -50,12 +50,6 @@ int main()
 {
 	std::vector<STUDENT_DATA> myvector;
 	readFromFile("StudentData.txt", myvector);
-	
-	for (int i = 0; i < myvector.size(); i++)
-	{
-		cout << myvector[i].firstName << myvector[i].lastName << endl;
-
-	}
 
 }
 
